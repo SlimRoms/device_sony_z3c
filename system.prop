@@ -5,3 +5,8 @@ ro.sf.lcd_density=260
 ro.usb.pid_suffix=1BB
 
 ro.use_data_netmgrd=true
+
+# USB OTG & ART
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.isUsbOtgEnabled=true \
+    persis.art.pruneimagecache=false

@@ -35,3 +35,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688 # 12656259072 - 16384
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/z3c/sepolicy
+
+# Default.prop overrides to get adb working at boot   
+ADDITIONAL_DEFAULT_PROPERTIES += \
+		ro.secure=0 \
+		ro.adb.secure=0 \
