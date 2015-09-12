@@ -1,1 +1,1 @@
-add_lunch_combo cm_z3c-eng
+add_lunch_combo slim_z3c-eng
